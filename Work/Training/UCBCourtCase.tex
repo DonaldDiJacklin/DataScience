@@ -1,0 +1,93 @@
+\documentclass[grey,handout]{beamer}
+%\usetheme{Pittsburgh}
+\usetheme{Montpellier}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+
+\renewcommand{\frametitle}[1]{\begin{center}\textbf{#1}\end{center}}
+
+\def\dd{{\rm d}}
+\def\E{\mathbb{E}}
+\def\BigO{{\cal O}}
+
+\begin{document}
+\title{Is UCB Discriminating Against Females?}
+
+\author{Donald M.~DiJacklin}
+
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{ROADMAP OF SEMINAR}
+  \begin{enumerate}[<+->]
+    \item Goal
+    \item Truths
+    \item Assumptions
+    \item Data
+    \item Theory
+    \item Results Thus Far
+  \end{enumerate}
+\end{frame}
+\begin{frame}
+\frametitle{Goal}
+To find the effects changing parameters have on a Ball Python Breeding Program.
+\end{frame}
+\begin{frame}
+\frametitle{Truths}
+  \begin{enumerate}[<+->]
+    \item Males can inseminate 5 females apiece.
+    \item About 60\% of pairings result in a `clutch'.
+    \item It costs about \$80 to keep a snake for a year.
+    \item A male takes a year to grow to a breedable size.
+    \item A female takes two years.
+  \end{enumerate}
+\end{frame}
+\begin{frame}
+  \frametitle{Assumptions}
+  \begin{enumerate}
+    \item Clutch size is distributed discrete triangular [3,14] max 6.
+    \item A breeder has a capacity that they are not willing to exceed.
+    \item No sickness.
+  \end{enumerate}
+\end{frame}
+
+
+\begin{frame}
+  % \frametitle{Probability of Clutch}
+  % \begin{figure}[H]
+  % \centering
+  % \includegraphics[width=.5\textwidth]{probECDF.png}
+  % \end{figure}
+  % 157535.2  186213
+\end{frame}
+
+\begin{frame}
+  \frametitle{Distribution}
+  
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Capacity}
+  \begin{multicols}{2}
+  % \begin{figure}[H]
+  % \centering
+  % \includegraphics[width=.5\textwidth]{capECDF.png}
+  % \end{figure}
+  80799.23 81569.97
+  % \begin{figure}[H]
+  % \centering
+  % \includegraphics[width=.5\textwidth]{othcapECDF.png}
+  % \end{figure}
+  154631.8 164730.1
+  
+  \end{multicols}
+  
+  
+  \end{frame}
+
+\end{document}
